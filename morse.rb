@@ -54,4 +54,4 @@ def decode_sentence(sentence)
   text.join(' ')
 end
 
-puts decode_sentence '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
+puts decode_sentence '.-  -... --- -..-  ..-. ..- .-.. .-..  --- ..-.  .-. ..- -... .. . ...'
