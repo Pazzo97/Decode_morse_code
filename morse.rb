@@ -47,3 +47,10 @@ def decode_word(word)
   word.split(/ /).each { |code| text.push(decode_char(code)) }
   text.join
 end
+def decode_sentence(sentence)
+  text = []
+  sentence.split(/ /).each { |word| text.push(decode_word(word)) }
+  text.join(' ')
+end
+
+puts decode_sentence '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
